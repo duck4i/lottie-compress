@@ -26,5 +26,8 @@
   },
   "dependencies": {
     "sharp": "^0.33.5"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
