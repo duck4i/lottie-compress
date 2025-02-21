@@ -73,7 +73,7 @@ export async function processLottieJson(inputFilePath: string, outputFilePath: s
             })
         );
 
-        fs.writeFileSync(outputFilePath, JSON.stringify(jsonData, null, 2), 'utf8');
+        fs.writeFileSync(outputFilePath, JSON.stringify(jsonData), 'utf8');
         console.log(`Conversion complete. Output saved to ${outputFilePath}`);
         return true;
     } catch (error) {
