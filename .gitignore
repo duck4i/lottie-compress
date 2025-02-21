@@ -1,0 +1,4 @@
+node_modules
+dist
+package.json
+test/truck_out.json
